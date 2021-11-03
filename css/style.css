@@ -1,0 +1,24 @@
+/* IMPORT THE ROBOTO GOOGLE FONT */
+@font-face {
+  font-family: import_roboto_regular;
+  src: url(../Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: import_roboto_bold;
+  src: url(../Roboto/Roboto-Bold.ttf);
+}
+/* END IMPORT THE ROBOTO GOOGLE FONT*/
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.intro_header_text {
+  text-align: center;
+  padding-top: 30vh;
+  font-family: import_roboto_bold;
+  color: #059b7b;
+  font-size: 100px;
+}
