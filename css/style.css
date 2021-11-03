@@ -56,7 +56,7 @@
 }
 
 .parallax_layer {
-  min-height: 1000px;
+  height: 1000px;
   position: fixed;
   top: 0;
   right: 0;
@@ -65,11 +65,11 @@
 }
 
 .parallax_layer_front {
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-3px) scale(3);
 }
 
 .parallax_layer_back {
-  transform: translateZ(0px);
+  transform: translateZ(0);
   z-index: -1;
 }
 
@@ -82,7 +82,7 @@
   z-index: 10;
 }
 
-.intro_header_images img {
+.image_grp img {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
@@ -132,4 +132,8 @@
   top: 170%;
   margin-top: -5rem;
   left: 5%;
+}
+
+.greetings {
+  position: relative;
 }
