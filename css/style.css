@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* IMPORT THE ROBOTO GOOGLE FONT */
@@ -13,6 +14,11 @@
   font-family: import_roboto_bold;
   src: url(../Roboto/Roboto-Bold.ttf);
 }
+
+@font-face {
+  font-family: import_rasa;
+  src: url(../Rasa/Rasa-VariableFont_wght.ttf);
+}
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
 /* SJI LOGO NAVBAR */
@@ -22,9 +28,9 @@
 
 .branding {
   font-size: 30px;
-  font-family: import_roboto_bold;
+  font-family: import_rasa;
   position: relative;
-  top: -10px;
+  top: -15px;
   padding-left: 10px;
 }
 
@@ -33,6 +39,7 @@
   position: fixed;
   top: 0;
   padding: 20px 0 0 30px;
+  z-index: 1000;
 }
 
 /* MAIN PAGE BANNER */
@@ -41,17 +48,41 @@
   width: 80%;
 }
 
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax_layer {
+  min-height: 1000px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax_layer_front {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax_layer_back {
+  transform: translateZ(0px);
+  z-index: -1;
+}
+
 .intro_header_text {
   font-family: import_roboto_bold;
   color: #059b7b;
   padding: 0;
   margin: 0;
   font-size: 150px;
-  transform: translateZ(900px);
+  z-index: 10;
 }
 
 .intro_header_images img {
-  z-index: -1;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
