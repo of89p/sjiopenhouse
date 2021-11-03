@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /* IMPORT THE ROBOTO GOOGLE FONT */
 @font-face {
   font-family: import_roboto_regular;
@@ -10,15 +15,90 @@
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
+/* SJI LOGO NAVBAR */
+.sji_logo_navbar img {
+  width: 40px;
+}
+
+.branding {
+  font-size: 30px;
+  font-family: import_roboto_bold;
+  position: relative;
+  top: -10px;
+  padding-left: 10px;
+}
+
+.sji_logo_navbar {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  padding: 20px 0 0 30px;
+}
+
+/* MAIN PAGE BANNER */
 .container {
   margin: auto;
   width: 80%;
 }
 
 .intro_header_text {
-  text-align: center;
-  padding-top: 30vh;
   font-family: import_roboto_bold;
   color: #059b7b;
-  font-size: 100px;
+  padding: 0;
+  margin: 0;
+  font-size: 150px;
+  transform: translateZ(900px);
+}
+
+.intro_header_images img {
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.intro_header_images .img1 {
+  width: 60vw;
+  height: auto;
+  top: 60%;
+  margin-top: -5rem;
+  left: 40%;
+}
+
+.intro_header_images .img2 {
+  width: 50vw;
+  height: auto;
+  top: 90%;
+  margin-top: -5rem;
+  left: 15%;
+}
+
+.intro_header_images .img3 {
+  width: 30vw;
+  height: auto;
+  top: 120%;
+  margin-top: -5rem;
+  left: 5%;
+}
+
+.intro_header_images .img4 {
+  width: 40vw;
+  height: auto;
+  top: 130%;
+  margin-top: -5rem;
+  left: 30%;
+}
+
+.intro_header_images .img5 {
+  width: 65vw;
+  height: auto;
+  top: 160%;
+  margin-top: -5rem;
+  left: 60%;
+}
+
+.intro_header_images .img6 {
+  width: 49vw;
+  height: auto;
+  top: 170%;
+  margin-top: -5rem;
+  left: 5%;
 }
