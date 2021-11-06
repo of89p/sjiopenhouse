@@ -80,37 +80,51 @@
   margin: 0;
   font-size: 150px;
   z-index: 10;
-  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  /* text-shadow: 3px 3px rgba(0, 0, 0, 0.4); */
 }
 
 /*ANIMATED ARROW*/
 .arrow {
-	width: 100px;
-	height: 82px;
-	position: absolute;
-	margin-left: 0px;
+  width: 100px;
+  height: 82px;
+  position: absolute;
+  margin-left: 0px;
   top: 12rem;
-	bottom: 5%;
-  z-index:999;
+  bottom: 5%;
+  z-index: 999;
 }
 /* set arrow styles */
 .arrow path {
-	stroke: #059b7b;
-	stroke-width: 5px;
-	fill: transparent;	
-	animation: down 2s infinite;
+  stroke: #059b7b;
+  stroke-width: 5px;
+  fill: transparent;
+  animation: down 2s infinite;
 }
 /* arrow keyframe animation */
-@keyframes down{
-0% { opacity:0 }
-25% { opacity:1 }
-75% { opacity:0 }
-100% { opacity:0 }
+@keyframes down {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 /* arrow animation delay */
-.arrow path.a1{	animation-delay:-1s; }
-.arrow path.a2{	animation-delay:-.5s; }
-.arrow path.a3{	animation-delay:0s; }
+.arrow path.a1 {
+  animation-delay: -1s;
+}
+.arrow path.a2 {
+  animation-delay: -0.5s;
+}
+.arrow path.a3 {
+  animation-delay: 0s;
+}
 .image_grp img {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
