@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /* IMPORT THE ROBOTO GOOGLE FONT */
 @font-face {
   font-family: import_roboto_regular;
@@ -81,6 +85,20 @@
   font-size: 150px;
   z-index: 10;
   /* text-shadow: 3px 3px rgba(0, 0, 0, 0.4); */
+}
+.custom_animate_delay_1 {
+  --animate-delay: 0.1s;
+}
+
+.custom_animate_delay_2 {
+  --animate-delay: 0.3s;
+}
+
+.custom_animate_delay_3 {
+  --animate-delay: 0.5s;
+}
+.custom_animate_delay_4 {
+  --animate-delay: 0.7s;
 }
 
 /*ANIMATED ARROW*/

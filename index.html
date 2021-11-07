@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/flexboxgrid.css">
     <title>Prototype</title>
@@ -18,11 +19,12 @@
 
     <div class="parallax">
         <div style="text-align: center; margin-top: 50vh;" class="parallax_layer parallax_layer_front">
-            <h1 style="display: inline-block;position:relative;left: 175px;" class="intro_header_text">Where</h1>
-            <h1 style="display: inline-block; position:relative; vertical-align: bottom; top: 50px; left: 250px;" class="intro_header_text ">Our</h1>
-            <h1 style="display: inline-block;position:relative; vertical-align: bottom; top: 250px; left: -190px; font-size: 250px;" class="intro_header_text">Story</h1>
-            <h1 style="display: inline-block;position:relative; vertical-align: bottom; top: 190px; left: -150px;" class="intro_header_text">Begins</h1>
-            <div style="text-align: center;">
+            <h1 style="display: inline-block;position:relative;left: 175px;" class="intro_header_text animate__animated animate__fadeIn custom_animate_delay_1 animate__delay-2s">Where</h1>
+            <h1 style="display: inline-block; position:relative; vertical-align: bottom; top: 50px; left: 250px;" class="intro_header_text animate__animated animate__fadeIn custom_animate_delay_2 animate__delay-2s">Our</h1>
+            <h1 style="display: inline-block;position:relative; vertical-align: bottom; top: 250px; left: -190px; font-size: 250px;" class="intro_header_text animate__animated animate__fadeIn custom_animate_delay_3 animate__delay-2s">Story</h1>
+            <h1 style="display: inline-block;position:relative; vertical-align: bottom; top: 190px; left: -150px;" class="intro_header_text animate__animated animate__fadeIn custom_animate_delay_4 animate__delay-2s">Begins</h1>
+            
+            <div class="animate__fadeIn animate__delay-2s" style="text-align: center;">
               <a href="#greetings">
                 <svg style="display:inline-block; position:relative; vertical-align: bottom;" class="arrow">
                   <path class="a1" d="M0 0 L50 22 L100 0"></path>
@@ -30,14 +32,14 @@
                   <path class="a3" d="M0 40 L50 62 L100 40"></path>
                 </svg>
               </a>
-          </div>
+            </div>
           </div>
 
 
         <div class="intro_header_images parallax_layer parallax_layer_back">
           <div class="image_grp">
-            <img class="img1" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
-            <img class="img2" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
+            <img class="img1 animate__animated animate__fadeIn animate__delay-2s" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
+            <img class="img2 animate__animated animate__fadeIn animate__delay-2s" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
             <img class="img3" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
             <img class="img4" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
             <img class="img5" src="./img/test.jpg" alt="Pictures of Josephians and SJI">
@@ -52,7 +54,9 @@
                   <div class="box" style="text-align: center;"><img style="width: 70%;" src="./img/Picture1.png" alt=""></div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="box">Responsive</div>
+                <div class="box">
+                  responsive
+                </div>
             </div>
             </div>
           </section>
@@ -60,8 +64,13 @@
         </div>
     </div>
     
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    
+    <script src="./js/main.js"></script>
+
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="./js/main.js"></script>
+
+
 </html>
