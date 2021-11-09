@@ -25,6 +25,41 @@ html {
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
+/* BUTTONS */
+.button_green {
+  text-decoration: none;
+  background-color: white;
+  color: #059b7b;
+  border: 2px solid #059b7b;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+.button_green:hover {
+  text-decoration: none;
+  background-color: #059b7b;
+  color: #fff;
+  border: 2px solid #059b7b;
+  padding: 1rem;
+}
+
+.button_white {
+  text-decoration: none;
+  background-color: #059b7b;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+.button_white:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #059b7b;
+  border: 2px solid #fff;
+  padding: 1rem;
+}
+
 /* SJI LOGO NAVBAR */
 .sji_logo_navbar img {
   width: 40px;
@@ -228,7 +263,7 @@ html {
 
 /* VIDEO SECTION */
 .mainpg_video {
-  height: 90vh;
+  padding: 2rem;
   font-family: import_rasa;
   background: #059b7b;
   color: #fff;
@@ -236,18 +271,17 @@ html {
 }
 
 .mainpg_video h2 {
-  padding: 50px 0 30px 0;
+  padding: 30px 0 30px 0;
   text-align: center;
   font-size: 80px;
 }
 
 .mainpg_video p {
   margin: auto;
-  width: 80%;
-  text-align: justify;
+  width: 30%;
+  text-align: center;
   text-justify: inter-word;
-  font-size: 25px;
-  padding-top: 50px;
+  font-size: 20px;
 }
 
 /*GREETINGS*/
@@ -276,7 +310,7 @@ html {
 }
 
 .polaroid_white-back_content {
-  margin: 5vw;
+  margin: 3vw;
 }
 
 .polaroid_white:hover .polaroid_white-inner {
@@ -293,13 +327,14 @@ html {
 }
 
 .polaroid_white-inner {
-  height: 45vh;
+  height: 320px;
   width: 24vw;
   background-color: #fff;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  font-family: import_roboto_regular;
 }
 
 .polaroid_white-front {
@@ -325,7 +360,7 @@ html {
 }
 
 .polaroid_green-back_content {
-  margin: 5vw;
+  margin: 3vw;
 }
 
 .polaroid_green:hover .polaroid_green-inner {
@@ -342,13 +377,14 @@ html {
 }
 
 .polaroid_green-inner {
-  height: 45vh;
+  height: 320px;
   width: 24vw;
   background-color: #059b7b;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  font-family: import_roboto_regular;
 }
 
 .polaroid_green-front {
