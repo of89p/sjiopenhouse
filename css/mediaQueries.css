@@ -1,0 +1,80 @@
+/* MAIN PAGE MEDIA QUERIES */
+@media only screen and (max-width: 1200px) {
+    .polaroid_white-inner {
+        height: 290px;
+        width: 25vw;
+    }
+
+    .polaroid_green-inner {
+        height: 290px;
+        width: 25vw;
+    }
+
+    .polaroids h2 {
+        text-align: center;
+        margin: 50px 0 40px 0;
+        color: #059b7b;
+        font-family: import_rasa;
+        font-size: 35px;
+    }
+
+    .polaroids h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .polaroids p {
+        font-size: 14px;
+    }
+
+    .polaroids a {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .polaroid_white-inner {
+        height: 260px;
+        width: 25vw;
+    }
+
+    .polaroid_green-inner {
+        height: 260px;
+        width: 25vw;
+    }
+    
+    .polaroids h2 {
+        text-align: center;
+        margin: 50px 0 40px 0;
+        color: #059b7b;
+        font-family: import_rasa;
+        font-size: 30px;
+    }
+
+    .polaroids h3 {
+        font-size: 16px;
+    }
+
+    .polaroids p {
+        font-size: 12px;
+    }
+
+    .polaroids a {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .polaroid_white-inner {
+        height: 300px;
+        width: 25vw;
+    }
+
+    .polaroid_green-inner {
+        height: 300px;
+        width: 25vw;
+    }
+    
+}
