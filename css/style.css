@@ -74,9 +74,9 @@ html {
 }
 
 .sji_logo_navbar {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky;
   position: fixed;
-  top: 0;
+  top: 0; */
   padding: 20px 0 0 30px;
   z-index: 1000;
 }
