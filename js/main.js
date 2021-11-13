@@ -1,2 +1,2 @@
 
-ScrollReveal().reveal('.img3');
+// ScrollReveal().reveal('.img3');
