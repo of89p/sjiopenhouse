@@ -308,7 +308,7 @@ html {
   position: relative;
   overflow: hidden;
   width: 80%;
-  padding-top: 56.25%;
+  padding-top: 45%;
   margin: auto;
 }
 
@@ -329,6 +329,7 @@ html {
 }
 
 .mainpg_video p {
+  padding-bottom: 50px;
   margin: auto;
   width: 40%;
   text-align: center;

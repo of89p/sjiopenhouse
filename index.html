@@ -22,14 +22,14 @@
       <!-- END OF NAVBAR -->
 
 
-        <div style="text-align: center; margin-top: 50vh;" class="parallax_layer parallax_layer_front">
+        <div style="text-align: center; margin-top: 80px;" class="parallax_layer parallax_layer_front">
 
             <h1 class="text_where intro_header_text animate__animated animate__fadeIn custom_animate_delay_1 animate__delay-2s">Where</h1>
             <h1 class="text_our intro_header_text animate__animated animate__fadeIn custom_animate_delay_2 animate__delay-2s">Our</h1>
             <h1 class="text_story intro_header_text animate__animated animate__fadeIn custom_animate_delay_3 animate__delay-2s">Story</h1>
             <h1 class="text_begins intro_header_text animate__animated animate__fadeIn custom_animate_delay_4 animate__delay-2s">Begins</h1>
             
-            <div class="animate__fadeIn animate__delay-2s" style="text-align: center;">
+            <div class="animated_arrow animate__animated animate__fadeIn custom_animate_delay_5 animate__delay-2s" style="text-align: center;">
               <a href="#greetings">
                 <svg style="display:inline-block; position:relative; vertical-align: bottom;" class="arrow">
                   <path class="a1" d="M0 0 L50 22 L100 0"></path>
@@ -51,7 +51,7 @@
             <img class="img6" src="./img/yg.jpeg" alt="Pictures of Josephians and SJI">
           </div>
           <!-- END OF PARALLEX EFFECTS -->
-      
+          <br><br><br><br><br><br><br><br><br><br><br><br>
           <!-- START OF GREETINGS SECTION-->
           <br><br>
           <section class="greetings" id="greetings">
@@ -290,7 +290,17 @@
         </div>
     </div>
     
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
     
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
     
     <script src="./js/main.js"></script>
