@@ -1,144 +1,142 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100%;
-    overflow: hidden;
-}
-
-body { 
-    margin: 0;
-    height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    perspective: 1px;
-    transform-style: preserve-3d;
+  overflow-x: hidden;
 }
 
 /* IMPORT THE ROBOTO GOOGLE FONT */
 @font-face {
-    font-family: import_roboto_regular;
-    src: url(../Roboto/Roboto-Regular.ttf);
+  font-family: import_roboto_regular;
+  src: url(../Roboto/Roboto-Regular.ttf);
 }
-  
+
 @font-face {
-    font-family: import_roboto_bold;
-    src: url(../Roboto/Roboto-Bold.ttf);
+  font-family: import_roboto_bold;
+  src: url(../Roboto/Roboto-Bold.ttf);
 }
-  
+
 @font-face {
-    font-family: import_rasa;
-    src: url(../Rasa/Rasa-VariableFont_wght.ttf);
+  font-family: import_rasa;
+  src: url(../Rasa/Rasa-VariableFont_wght.ttf);
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
-.container{
-    width: 80%;
-    margin: auto;
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px;
+  transform-style: preserve-3d;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
 
 /* BANNER */
 .banner {
-    padding: 25vh 10%;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    transform-style: inherit;
-    z-index: -1;
+  padding: 25vh 10%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  transform-style: inherit;
+  z-index: -1;
 }
 
-.banner, .banner:before {
-    background: 50% 50% / cover;
+.banner,
+.banner:before {
+  background: 50% 50% / cover;
 }
 
 .banner:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .banner_content {
-    color: #fff;
-    font-size: 4vw;
-    margin: 0 auto;
-    padding: 20vh 0;
-    text-align: center;
+  color: #fff;
+  font-size: 4vw;
+  margin: 0 auto;
+  padding: 20vh 0;
+  text-align: center;
 }
 
-.banner_content h1{
-    border: #fff;
+.banner_content h1 {
+  border: #fff;
 }
 
 .learning_minds_banner:before {
-    background-image: url("../img/test_landscape.jpg");
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
+  background-image: url("../img/test_landscape.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
 }
 
-
 /* CONTENT */
-.learningminds_content{
-    background: #fff;
+.learningminds_content {
+  background: #fff;
 }
 
 .green_rect1 {
-    height: 75vh;
-    margin-left: 12.5vw;
-    display: flex;
-    align-content: center;
-    color: #fff;
-    background-color: #00664f;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    width: 75vw;
-    margin-top: 5%;
+  height: 75vh;
+  margin-left: 12.5vw;
+  display: flex;
+  align-content: center;
+  color: #fff;
+  background-color: #00664f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 75vw;
+  margin-top: 5%;
 }
 
-.green_rect1 p{
-    padding: auto;
-    font-size: 25px;
-    width: 70%;
-    margin: auto;
+.green_rect1 p {
+  padding: auto;
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
 }
 
 .green_rect1_text_container {
-    display: flex;
-    height: 75vh;
+  display: flex;
+  height: 75vh;
 }
 
 .green_rect1 img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-
-.h1_intro{
-    color: #059b7b;
-    text-align: center;
-    font-family: import_roboto_bold;
-    font-size: 70px;
+.h1_intro {
+  color: #059b7b;
+  text-align: center;
+  font-family: import_roboto_bold;
+  font-size: 70px;
 }
 
-.six_academic_grp_img img{
-    width: 70%;
-    height: auto;
+.six_academic_grp_img img {
+  width: 70%;
+  height: auto;
 }
 
-.six_academic_grp_text{
-    text-align: center;
-    font-family: import_rasa;
+.six_academic_grp_text {
+  text-align: center;
+  font-family: import_rasa;
 }
 
-.academic_cards{
-    background: #059b7b;
+.academic_cards {
+  background: #059b7b;
 }
 
-.card{
-    border: #fff solid 1px;
-    width: 70%;
+.card {
+  border: #fff solid 1px;
+  width: 70%;
 }

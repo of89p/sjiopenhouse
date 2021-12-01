@@ -148,7 +148,7 @@
 }
 
 /* SJI LOGO NAVBAR */
-.sji_logo_navbar img {
+.sjilogo {
   width: 40px;
 }
 
@@ -162,8 +162,8 @@
 
 .sji_logo_navbar {
   position: -webkit-sticky;
-  position: fixed;
+  position: absolute;
+  z-index: 1000;
   top: 0;
   padding: 20px 0 0 30px;
-  z-index: 1000;
 }
