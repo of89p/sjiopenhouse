@@ -10,6 +10,7 @@
 
 body {
   font-family: import_roboto_regular;
+  overflow-x: hidden;
 }
 
 /* IMPORT THE ROBOTO GOOGLE FONT */
@@ -47,6 +48,18 @@ body {
   font-size: 100px;
 }
 
+.faith {
+  text-align: left;
+}
+
+.service {
+  margin-left: -200px;
+  text-align: center;
+}
+
+.community {
+  text-align: right;
+}
 /* VALUES */
 .values {
   text-align: center;
@@ -105,10 +118,10 @@ body {
 .leftbox {
   background-color: #00664f;
   color: white;
-  width: 50%;
   float: left;
   text-align: right;
   font-family: import_roboto_regular;
+  height: 400px;
 }
 
 .leftbox_content {
@@ -128,8 +141,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
   color: #00664f;
-  width: 50%;
   font-family: import_roboto_regular;
+  height: 400px;
 }
 
 .rightbox_content {
@@ -142,4 +155,113 @@ body {
 
 .rightbox_content p {
   font-size: 20px;
+}
+
+/* IMAGE DIVIDER */
+
+.image_divider img {
+  height: auto;
+  width: 100vw;
+  background-color: #fff;
+}
+
+/* JFJ */
+.jfj {
+  background-color: #fff;
+  padding-top: 30px;
+  margin-top: -10px;
+}
+
+.jfj img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.jfj p {
+  background-color: #00664f;
+  color: #fff;
+  padding: 70px 200px 70px 200px;
+  text-align: justify;
+}
+
+.heading {
+  color: #00664f;
+  text-align: center;
+  font-family: import_roboto_bold;
+  font-size: 40px;
+}
+
+/* footer */
+.footer {
+  background: #00664f;
+  color: #fff;
+  font-family: import_rasa;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 15px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 950px) {
+  .values h3 {
+    font-size: 25px;
+  }
+
+  .values p {
+    font-size: 15px;
+  }
+
+  .motto h2 {
+    font-size: 25px;
+  }
+
+  .motto h3 {
+    font-size: 40px;
+  }
+
+  .motto p {
+    font-size: 15px;
+  }
+
+  .jfj p {
+    padding: 50px;
+  }
+
+  .jfj img {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .motto_content {
+    width: 80%;
+  }
+
+  .leftbox {
+    text-align: center;
+    height: auto;
+  }
+
+  .rightbox {
+    text-align: center;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .transforming_lives_banner h2 {
+    padding: 10px;
+    font-size: 80px;
+  }
+
+  .service {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .community {
+    text-align: left;
+  }
 }

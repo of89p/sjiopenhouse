@@ -1,4 +1,10 @@
-/* MAIN PAGE MEDIA QUERIES */
+/* 
+
+
+MAIN PAGE MEDIA QUERIES 
+
+
+*/
 @media only screen and (max-width: 1200px) {
   .parallax_layer_front {
     transform: translateZ(-2px) scale(2);
