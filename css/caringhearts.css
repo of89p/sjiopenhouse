@@ -25,6 +25,47 @@ html {
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
+/* BUTTONS */
+.button_green {
+  text-decoration: none;
+  background-color: white;
+  color: #059b7b;
+  border: 2px solid #00664f;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+.button_green:hover {
+  text-decoration: none;
+  background-color: #00664f;
+  color: #fff;
+  border: 2px solid #00664f;
+  padding: 1rem;
+}
+
+.button_white {
+  text-decoration: none;
+  background-color: #00664f;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+.button_white:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #00664f;
+  border: 2px solid #fff;
+  padding: 1rem;
+}
+
+/* BANNER */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .typewriter {
   margin: auto;
   width: 80%;
@@ -68,6 +109,65 @@ html {
   }
 }
 
+.cas_banner {
+  margin: 100px 0 50px 0;
+}
+
+.cas_intro {
+  font-family: import_roboto_regular;
+  font-size: 15px;
+  color: #fff;
+  background-color: #00664f;
+  padding: 150px 0 150px 0;
+}
+
+.cas_intro ul {
+  margin-left: 50px;
+}
+
+/* CAS */
+.cas h2 {
+  font-family: import_roboto_bold;
+  font-size: 60px;
+  color: #00664f;
+}
+
+.cas h3 {
+  font-family: import_roboto_bold;
+  font-size: 40px;
+  color: #00664f;
+}
+
+.cas p {
+  font-family: import_roboto_regular;
+  font-size: 14px;
+}
+
+.cas img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_image_left {
+  height: auto;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.card_image_right {
+  height: auto;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.cas_text {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
 /* FOOTER */
 .footer {
   background: #00664f;

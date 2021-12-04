@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/flexboxgrid.css">
     <link rel="stylesheet" href="./css/caringhearts.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>SJI Open House | Learning Minds</title> 
     
    
 </head>
 <body>  
     <!-- START OF NAVBAR -->
+    <div class="sji_logo_navbar">
+        <img class="sjilogo" style="display: inline-block;" src="./img/logo.png" alt="SJI logo">
+        <h1 class="branding" style="display: inline-block; ">St. Joseph's Institution</h1>
+    </div>
     <div class="sji_logo_navbar">
 
         <div class="menu-wrap">
@@ -42,14 +47,85 @@
     </div>
     <!-- END OF NAVBAR -->
 
-    <section class="typewriter">
-        <h2 class="c">Creativity</h2><br>
-        <h2 class="a">Activty</h2><br>
-        <h2 class="s">Service</h2>
-    </section>
+    <!-- START OF CAS Banner -->
+    <div class="cas_banner">
+        <section class="typewriter">
+            <h2 class="c">Creativity</h2><br>
+            <h2 class="a">Activty</h2><br>
+            <h2 class="s">Service</h2>
+        </section>
+        <br><br>
+        <div class="cas_intro">
+            <div class="container">
+                <p>
+                    CAS enables students to enhance their personal and interpersonal development as well as their social and civic development, through experiential learning in the following three strands: creative, activity and service. CAS experiences should be both challenging and enjoyable - a personal journey of self-discovery that recognizes each student's individual starting point. These experiences are:
+                    <br><br>
+                    <ul>
+                        <li>real, purposeful activities, with significant outcomes</li>
+                        <li>tasks that extend the student and be achievable in scope</li>
+                        <li>thoughtfully considered involving planning, reviewing progress and reporting</li>
+                        <li>reflected upon focusing on outcomes and personal learning</li>
+                    </ul>
+                    <br>
+                    Students must demonstrate satisfactory participation in CAS for the award of the IB Diploma. This is achieved through the student’s active and balanced engagement in the experiences that encompass the three strands: creativity, action and service, and through their reflections. that indicate they have fulfilled the seven CAS learning outcomes.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END OF CAS BANNER -->
+    <!-- START OF CAS -->
+    <div class="cas">
+        <div class="container">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2>Creativity</h2>
+            </div>
+            <br><br>
+            <div class="card_image_left" data-aos="fade-right" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cas_image">
+                        <img src="./img/caring_hearts/astronomy1.jpeg" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cas_text">
+                        <div class="container">
+                            <h3>Astronomy</h3>
+                            <br><br>
+                            <p>
+                                In the Astronomy Club, we focus on expanding our knowledge about the vast cosmos. We do so by coming together and collaborating with one another, discussing concepts and findings. Typical sessions include presentations and quizzes to deepen our members’ understanding of astronomy. On special occasions, we would invite external speakers to address us, exposing us to more knowledge about the physical universe and celestial objects. We also hold stargazing sessions at Singapore Botanic Gardens in the evening during which we apply skills that we have learnt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_image_right" data-aos="fade-left" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cas_text">
+                        <div class="container">
+                            <h3>Chamber Ensemble </h3>
+                            <br><br>
+                            <p>
+                                Chamber Ensemble provides students with a platform to appreciate and bond over music. Students who play or are interested in learning different instruments such as the piano, violin, viola, cello or the bass play compositions as an ensemble in preparation for upcoming performances. Members are able to wholeheartedly enjoy creating music while working together with their peers in bringing a musical arrangement to live. During the COVID-19 period, practices were conducted online through zoom meetings each week, allowing members to continue practicing their instruments and improving their technique and skills.                            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cas_image">
+                        <img src="./img/caring_hearts/chamber1.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
 
 
+            <br><br><br>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2>Activity</h2>
+            </div>
 
+            <br><br><br>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2>Service</h2>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER -->
     <br><br>
     <section class="footer">
@@ -60,6 +136,9 @@
 
     </section>
 
-    
-</body>
+</body>    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
