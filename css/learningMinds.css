@@ -289,3 +289,60 @@ html {
   padding: 30px 0 30px 0;
   font-size: 15px;
 }
+
+.Container-1 {
+  background-color: #059b7b;
+  color: white;
+  padding-left: 2vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+
+  margin-left: 20vh;
+  border-radius: 0.4em;
+  font-size: 1.2vw;
+}
+
+.Container-0 {
+  position: relative;
+
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+}
+
+.Image {
+  position: absolute;
+  top: -10vh;
+  left: 58vw;
+  right: 0;
+  bottom: 0;
+}
+
+.Img {
+  max-width: 35vw;
+  min-width: 60px;
+  max-height: 32vw;
+  min-height: 130px;
+}
+
+.button_white {
+  text-decoration: none;
+  background-color: #059b7b;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  transition-duration: 0.2s;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 15px;
+}
+
+.button_white:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #059b7b;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 15px;
+}
