@@ -309,10 +309,37 @@ html {
   margin-bottom: 30vh;
 }
 
+.Container-0_1 {
+  position: relative;
+  margin-right: 20vh;
+  margin-left: 50vh;
+  margin-bottom: 30vh;
+}
+
+.Container-1_0 {
+  background-color: #059b7b;
+  color: white;
+  padding-right: 2vw;
+  padding-left: 10vw;
+  padding-top: 10vh;
+
+  margin-left: 20vh;
+  border-radius: 0.4em;
+  font-size: 1.2vw;
+}
+
 .Image {
   position: absolute;
   top: -10vh;
   left: 58vw;
+  right: 0;
+  bottom: 0;
+}
+
+.Image-2 {
+  position: absolute;
+  top: -10vh;
+  left: -18vw;
   right: 0;
   bottom: 0;
 }
