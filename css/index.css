@@ -346,10 +346,6 @@ html {
   width: 300px;
 }
 
-.polaroid_white-back_content {
-  margin: 3vw;
-}
-
 .polaroid_white:hover .polaroid_white-inner {
   transform: rotateY(180deg);
 }
@@ -383,6 +379,10 @@ html {
   background-color: #fff;
   color: #000;
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 /* GREEN POLAROIDS */
@@ -395,10 +395,6 @@ html {
   margin-top: 30px;
   height: auto;
   width: 300px;
-}
-
-.polaroid_green-back_content {
-  margin: 3vw;
 }
 
 .polaroid_green:hover .polaroid_green-inner {
@@ -434,6 +430,10 @@ html {
   background-color: #00664f;
   color: #fff;
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 .polaroids h2 {

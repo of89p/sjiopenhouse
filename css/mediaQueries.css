@@ -189,6 +189,10 @@ MAIN PAGE MEDIA QUERIES
     left: -20px;
   } */
 
+  .image_grp {
+    display: none;
+  }
+
   .text_story {
     top: 190px;
     left: 115px;
@@ -303,6 +307,7 @@ MAIN PAGE MEDIA QUERIES
 
   .greetings p {
     padding-top: 10px;
+    font-size: 20px;
   }
 
   .greetings h2 {
@@ -377,6 +382,21 @@ MAIN PAGE MEDIA QUERIES
 @media only screen and (max-width: 768px) {
   .greetings img {
     width: 60vw;
+  }
+
+  .greetings p {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  .greetings h2 {
+    padding-top: 30px;
+    font-size: 35px;
+  }
+
+  .greetings h3 {
+    padding-top: 50px;
+    font-size: 25px;
   }
 
   .mainpg_video p {

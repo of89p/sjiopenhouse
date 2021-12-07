@@ -98,7 +98,7 @@ html {
 } */
 
 .c {
-  width: 22ch;
+  width: 10ch;
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -106,13 +106,12 @@ html {
   font-size: 120px;
   color: #00664f;
   font-family: import_roboto_bold;
-
-  animation: typing_c 2s steps(22), blink 0.5s step-end alternate;
+  animation: typing_c 0.75s steps(10), blink 0.5s step-end alternate;
   animation-fill-mode: forwards;
 }
 
 .a {
-  width: 22ch;
+  width: 10ch;
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -121,21 +120,21 @@ html {
   color: #00664f;
   font-family: import_roboto_bold;
 
-  animation: typing_a 2s 1.3s steps(22), blink 0.5s step-end alternate;
+  animation: typing_a 0.75s 0.75s steps(10), blink 0.5s step-end alternate;
   animation-fill-mode: forwards;
 }
 
 .s {
-  width: 22ch;
+  width: 10ch;
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
-  /* border-right: 3px solid; */
   font-size: 120px;
   color: #00664f;
   font-family: import_roboto_bold;
 
-  animation: typing_s 2s 2.3s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing_s 0.75s 1.5s steps(10),
+    blink 0.5s step-end infinite alternate;
   animation-fill-mode: forwards;
   /* border-right: 3px solid; */
 }
@@ -195,6 +194,10 @@ html {
 
 .cas_banner {
   margin: 100px 0 50px 0;
+}
+
+.cas_banner a {
+  text-decoration: none;
 }
 
 .cas_intro {
@@ -356,6 +359,10 @@ html {
   align-items: center;
 }
 
+.slideshow-container img {
+  height: 600px;
+  width: auto;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -466,4 +473,84 @@ html {
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1079px) {
+  .GEP h2 {
+    font-size: 70px;
+  }
+
+  .slideshow-container {
+    max-width: 800px;
+  }
+
+  .slideshow-container img {
+    height: 500px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .GEP {
+    padding: 100px;
+  }
+
+  .GEP h2 {
+    font-size: 50px;
+  }
+
+  .GEP p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c,
+  .a,
+  .s {
+    font-size: 90px;
+  }
+
+  .cas_intro {
+    font-size: 14px;
+    padding: 40px;
+  }
+
+  .student_leadership1 {
+    padding: 40px;
+  }
+
+  .student_leadership1 h3 {
+    font-size: 30px;
+  }
+
+  .student_leadership1 p {
+    font-size: 14px;
+  }
+
+  .student_leadership2 {
+    padding: 40px;
+  }
+
+  .student_leadership2 h3 {
+    font-size: 30px;
+  }
+
+  .student_leadership2 p {
+    font-size: 14px;
+  }
+
+  .GEP {
+    padding: 50px;
+  }
+
+  .slideshow-container {
+    max-width: 400px;
+  }
+
+  .slideshow-container img {
+    height: 200px;
+    width: auto;
+  }
 }
