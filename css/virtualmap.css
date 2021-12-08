@@ -34,8 +34,13 @@ html {
   padding: 30px 0 30px 0;
   font-size: 15px;
 }
-
-/* svg:hover {
+/* svg {
+  position: absolute;
+} */
+svg:hover {
   stroke: rgb(134, 117, 117);
   /* fill: red; */
+}
+/* .founders-hall:hover {
+  stroke: rgb(134, 117, 117);
 } */

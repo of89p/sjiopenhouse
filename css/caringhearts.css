@@ -136,7 +136,7 @@ html {
   animation: typing_s 0.75s 1.5s steps(10),
     blink 0.5s step-end infinite alternate;
   animation-fill-mode: forwards;
-  /* border-right: 3px solid; */
+  border-right: 3px solid;
 }
 
 @keyframes typing_c {
@@ -517,6 +517,14 @@ html {
     padding: 40px;
   }
 
+  .cas h2 {
+    font-size: 40px;
+  }
+
+  .cas h3 {
+    font-size: 30px;
+  }
+
   .student_leadership1 {
     padding: 40px;
   }
@@ -552,5 +560,93 @@ html {
   .slideshow-container img {
     height: 200px;
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .c {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-size: 55px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+    animation: typing_c 0.75s steps(10), blink 0.5s step-end alternate;
+    animation-fill-mode: forwards;
+  }
+
+  .a {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-size: 55px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+
+    animation: typing_a 0.75s 0.75s steps(10), blink 0.5s step-end alternate;
+    animation-fill-mode: forwards;
+  }
+
+  .s {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 55px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+
+    animation: typing_s 0.75s 1.5s steps(10),
+      blink 0.5s step-end infinite alternate;
+    animation-fill-mode: forwards;
+    /* border-right: 3px solid; */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .c {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-size: 45px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+    animation: typing_c 0.75s steps(10), blink 0.5s step-end alternate;
+    animation-fill-mode: forwards;
+  }
+
+  .a {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-size: 45px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+
+    animation: typing_a 0.75s 0.75s steps(10), blink 0.5s step-end alternate;
+    animation-fill-mode: forwards;
+  }
+
+  .s {
+    width: 8ch;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 45px;
+    color: #00664f;
+    font-family: import_roboto_bold;
+
+    animation: typing_s 0.75s 1.5s steps(10),
+      blink 0.5s step-end infinite alternate;
+    animation-fill-mode: forwards;
+    /* border-right: 3px solid; */
   }
 }
