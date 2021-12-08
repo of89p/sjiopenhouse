@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 :root {
@@ -122,6 +123,7 @@ body {
   text-align: right;
   font-family: import_roboto_regular;
   height: 400px;
+  padding: 0 !important;
 }
 
 .leftbox_content {
@@ -143,6 +145,7 @@ body {
   color: #00664f;
   font-family: import_roboto_regular;
   height: 400px;
+  padding: 0 !important;
 }
 
 .rightbox_content {
