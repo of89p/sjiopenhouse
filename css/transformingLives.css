@@ -257,3 +257,19 @@ body {
     text-align: left;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .transforming_lives_banner h2 {
+    padding: 10px;
+    font-size: 60px;
+  }
+
+  .service {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .community {
+    text-align: left;
+  }
+}

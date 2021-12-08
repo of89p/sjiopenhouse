@@ -150,7 +150,7 @@
 
 /* SJI LOGO NAVBAR */
 .sjilogo {
-  width: 40px;
+  width: 20vw;
 }
 
 .branding {
@@ -167,4 +167,39 @@
   z-index: 1000;
   top: 0;
   padding: 20px 0 0 30px;
+}
+
+/* 
+
+MEDIA QUERIES
+
+*/
+@media only screen and (max-width: 1180px) {
+  .sjilogo {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .sjilogo {
+    width: 35vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .sjilogo {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sjilogo {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sjilogo {
+    width: 55vw;
+  }
 }

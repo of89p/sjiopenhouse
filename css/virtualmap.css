@@ -44,3 +44,16 @@ svg:hover {
 /* .founders-hall:hover {
   stroke: rgb(134, 117, 117);
 } */
+.lol:hover path {
+  stroke: #00664f;
+}
+/*#shape0:hover,
+#shape1:hover,
+#shape2:hover,
+#shape3:hover,
+#shape4:hover,
+#shape5:hover,
+#shape6:hover,
+#shape7:hover {
+  stroke: red;
+}*/
