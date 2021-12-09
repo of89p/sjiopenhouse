@@ -25,26 +25,10 @@ html {
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
-/* footer */
-.footer {
-  background: #00664f;
-  color: #fff;
-  font-family: import_rasa;
-  text-align: center;
-  padding: 30px 0 30px 0;
-  font-size: 15px;
+svg .foundershall:hover path {
+  stroke: blue;
 }
-/* svg {
-  position: absolute;
-} */
 
-
-svg .founderhall:hover path {
-  stroke: blue
-}
-/* #chapel:hover {
-  stroke: purple
-} */
 svg .chapel:hover path{
   stroke: green;
 }
@@ -58,8 +42,9 @@ svg .ish:hover path{
   stroke: purple;
 }
 svg .library:hover path{
-  stroke: red;
+  stroke: #00664f;
 }
+
 svg .track:hover path {
   stroke: yellow;
 }
@@ -71,3 +56,14 @@ svg .track:hover ellipse {
 svg .track:hover circle {
   stroke: yellow;
 }
+
+/* footer */
+.footer {
+  background: #00664f;
+  color: #fff;
+  font-family: import_rasa;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 15px;
+}
+
