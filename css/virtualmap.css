@@ -37,23 +37,37 @@ html {
 /* svg {
   position: absolute;
 } */
-svg:hover {
-  stroke: rgb(134, 117, 117);
-  /* fill: red; */
+
+
+svg .founderhall:hover path {
+  stroke: blue
 }
-/* .founders-hall:hover {
-  stroke: rgb(134, 117, 117);
+/* #chapel:hover {
+  stroke: purple
 } */
-.lol:hover path {
-  stroke: #00664f;
+svg .chapel:hover path{
+  stroke: green;
 }
-/*#shape0:hover,
-#shape1:hover,
-#shape2:hover,
-#shape3:hover,
-#shape4:hover,
-#shape5:hover,
-#shape6:hover,
-#shape7:hover {
+svg .foyer:hover path{
+  stroke: green;
+}
+svg .ibblock:hover path{
   stroke: red;
-}*/
+}
+svg .ish:hover path{
+  stroke: purple;
+}
+svg .library:hover path{
+  stroke: red;
+}
+svg .track:hover path {
+  stroke: yellow;
+}
+
+svg .track:hover ellipse {
+  stroke: yellow;
+}
+
+svg .track:hover circle {
+  stroke: yellow;
+}
