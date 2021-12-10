@@ -126,13 +126,19 @@ html {
   margin: 30px 0 30px 0;
 }
 
+.six_academic_grp_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .six_academic_grp_img img {
   width: 70%;
   height: auto;
 }
 
 .six_academic_grp_text {
-  text-align: center;
+  text-align: justify;
   font-family: import_rasa;
 }
 
@@ -189,7 +195,11 @@ html {
 }
 
 .text_card {
-  padding: 10px 0 10px 0;
+  padding: 10px 0px 10px 0;
+}
+
+.text_card ol {
+  padding-left: 20px;
 }
 
 .eetokcas h3 {
@@ -206,7 +216,7 @@ html {
 .eetokcas p {
   margin: auto;
   width: 80%;
-  text-align: center;
+  text-align: justify;
   font-family: import_rasa;
 }
 
@@ -313,13 +323,12 @@ html {
 .Container-1 {
   background-color: #00664f;
   color: white;
-  padding-left: 2vw;
   padding-right: 10vw;
+  padding-left: 2vw;
   padding-top: 10vh;
 
-  margin-left: 20vh;
   border-radius: 0.4em;
-  font-size: 1.2vw;
+  font-size: 15px; /*1.2vw*/
 }
 
 .Container-0 {
@@ -331,21 +340,20 @@ html {
 
 .Container-0_1 {
   position: relative;
-  margin-right: 20vh;
-  margin-left: 50vh;
   margin-bottom: 30vh;
+  margin-left: 28vw;
+  margin-right: 3vw;
 }
 
 .Container-1_0 {
   background-color: #00664f;
   color: white;
-  padding-right: 2vw;
+  padding-right: 10vw;
   padding-left: 10vw;
   padding-top: 10vh;
-
-  margin-left: 20vh;
+  
   border-radius: 0.4em;
-  font-size: 1.2vw;
+  font-size: 15px; /*1.2vw*/
 }
 
 .Image {
@@ -359,7 +367,7 @@ html {
 .Image-2 {
   position: absolute;
   top: -10vh;
-  left: -18vw;
+  left: -25vw;
   right: 0;
   bottom: 0;
 }
@@ -413,4 +421,14 @@ html {
   color: #fff;
   border: 2px solid #00664f;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .h1_intro {
+    font-size: 45px;
+  }
+
+  .eetokcas h3 {
+    font-size: 40px;
+  }
 }
