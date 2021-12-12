@@ -26,35 +26,57 @@ html {
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
 svg .foundershall:hover path {
-  stroke: blue;  
+  stroke: blue;
+  cursor: pointer;
 }
 
-svg .chapel:hover path{
+svg .chapel:hover path {
   stroke: green;
+  cursor: pointer;
 }
-svg .foyer:hover path{
+svg .foyer:hover path {
   stroke: green;
+  cursor: pointer;
 }
-svg .ibblock:hover path{
+svg .ibblock:hover path {
   stroke: red;
+  cursor: pointer;
 }
-svg .ish:hover path{
+svg .ish:hover path {
   stroke: purple;
+  cursor: pointer;
 }
-svg .library:hover path{
+svg .library:hover path {
   stroke: #00664f;
+  cursor: pointer;
 }
 
 svg .track:hover path {
   stroke: yellow;
+  cursor: pointer;
 }
 
 svg .track:hover ellipse {
   stroke: yellow;
+  cursor: pointer;
 }
 
 svg .track:hover circle {
   stroke: yellow;
+  cursor: pointer;
+}
+
+#displayArea {
+  width: 80%;
+  margin: auto;
+}
+
+#displayArea h1 {
+  font-family: import_roboto_bold;
+}
+
+#displayArea p {
+  font-family: import_roboto_regular;
 }
 
 /* footer */

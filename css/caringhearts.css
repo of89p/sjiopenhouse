@@ -351,17 +351,135 @@ html {
 
 /* GEP carousell */
 
-
 /* GEP MAP */
 .map {
   display: flex;
   justify-content: center;
   fill: rgb(242, 242, 242);
+  stroke: white;
+  stroke-width: 1px;
+}
+.map .gepcountries {
+  fill: rgb(129, 129, 129);
   stroke: #00664f;
   stroke-width: 0.5px;
-  transition: fill 0.3s;
 }
 
+#JP:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#CN:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#TW:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+.jerusalem :hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#VN:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#KR:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#AU:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#PH:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#HK:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+
+#LA:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+
+#MY:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#ID:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#US:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#TH:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+#MM:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
+
+#KH:hover {
+  fill: rgb(226, 226, 226);
+  stroke-width: 0.7px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+}
 
 /* FOOTER */
 .footer {
