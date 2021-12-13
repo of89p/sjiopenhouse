@@ -275,4 +275,21 @@ body {
   .community {
     text-align: left;
   }
+
+  .leftbox_content h2 {
+    font-size: 30px;
+  }
+
+  .leftbox_content p {
+    font-size: 16px;
+  }
+  
+  .rightbox_content h2 {
+    font-size: 30px;
+  }
+
+  .rightbox_content p {
+    font-size: 16px;
+  }
+  }
 }

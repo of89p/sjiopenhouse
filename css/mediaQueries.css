@@ -449,6 +449,7 @@ MAIN PAGE MEDIA QUERIES
 }
 
 @media only screen and (max-width: 500px) {
+
   .polaroid_white {
     margin-bottom: 50px;
   }
@@ -479,13 +480,13 @@ MAIN PAGE MEDIA QUERIES
 
   .polaroid_white-inner {
     height: 300px;
-    width: 70vw;
+    width: 80vw;
     margin: auto;
   }
 
   .polaroid_green-inner {
     height: 300px;
-    width: 70vw;
+    width: 80vw;
     margin: auto;
   }
 }
