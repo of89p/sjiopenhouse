@@ -491,6 +491,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #CN:hover {
   fill: rgb(226, 226, 226);
@@ -498,6 +499,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #TW:hover {
   fill: rgb(226, 226, 226);
@@ -505,6 +507,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 .jerusalem:hover {
   fill: rgb(226, 226, 226);
@@ -512,6 +515,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 .jerusalem:hover .mapmarker{
@@ -520,6 +524,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #VN:hover {
@@ -528,6 +533,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #KR:hover {
   fill: rgb(226, 226, 226);
@@ -535,6 +541,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #AU:hover {
   fill: rgb(226, 226, 226);
@@ -542,6 +549,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #PH:hover {
   fill: rgb(226, 226, 226);
@@ -549,6 +557,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 .hongkong:hover {
@@ -557,6 +566,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 .hongkong:hover .mapmarker{
@@ -565,6 +575,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #LA:hover {
@@ -573,6 +584,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #MY:hover {
@@ -581,6 +593,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #ID:hover {
   fill: rgb(226, 226, 226);
@@ -588,6 +601,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #US:hover {
   fill: rgb(226, 226, 226);
@@ -595,6 +609,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #TH:hover {
   fill: rgb(226, 226, 226);
@@ -602,6 +617,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #MM:hover {
   fill: rgb(226, 226, 226);
@@ -609,6 +625,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #KH:hover {
@@ -617,6 +634,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 .mapmarker {
   fill:rgb(129, 129, 129);

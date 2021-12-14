@@ -31,27 +31,27 @@ html {
 }
 
 svg .foundershall:hover path {
-  stroke: red;
+  stroke: #00664f;
   cursor: pointer;
 }
 
 svg .chapel:hover path {
-  stroke: green;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
 svg .foyer:hover path {
-  stroke: green;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
 svg .ibblock:hover path {
-  stroke: red;
+  stroke: #00664f;
   cursor: pointer;
-  transition: stroke 0.3s;
+  transition: stroke 0.3s
 }
 svg .ish:hover path {
-  stroke: purple;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
@@ -62,19 +62,19 @@ svg .library:hover path {
 }
 
 svg .track:hover path {
-  stroke: yellow;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
 
 svg .track:hover ellipse {
-  stroke: yellow;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
 
 svg .track:hover circle {
-  stroke: yellow;
+  stroke: #00664f;
   cursor: pointer;
   transition: stroke 0.3s;
 }
