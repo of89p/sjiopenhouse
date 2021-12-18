@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+  }
+  
+  :root {
+    --animate-delay: 0.5s;
+  }
+  
+  body {
+    font-family: import_roboto_regular;
+    overflow-x: hidden;
+  }
+  
+  /* IMPORT THE ROBOTO GOOGLE FONT */
+  @font-face {
+    font-family: import_roboto_regular;
+    src: url(../Roboto/Roboto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: import_roboto_bold;
+    src: url(../Roboto/Roboto-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: import_rasa;
+    src: url(../Rasa/Rasa-VariableFont_wght.ttf);
+  }
+  /* END IMPORT THE ROBOTO GOOGLE FONT*/
+  
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: import_roboto_bold;
+}
+
+/* FOOTER */
+.footer {
+    background: #00664f;
+    color: #fff;
+    font-family: import_rasa;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-size: 15px;
+  }
+
+
+
+
+
+
+.intro {
+    background-image: url("../../pics/01/DSC_0376.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    -webkit-transition: background 0.1s ease-out;
+    -moz-transition: background 0.1s ease-out;
+    -o-transition: background 0.1s ease-out;
+    -ms-transition: background 0.1s ease-out;
+    transition: background 0.1s ease-out;
+}
+  
+  .brand {
+    position: sticky;
+    top: 0;
+    left: 20px;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .center h1 {
+    font-size: 80px;
+    opacity: 90%;
+    margin: 0;
+    padding-top: 30vh;
+  }
+  
+  .center {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .center p {
+    margin-top: 0;
+    font-size: 40px;
+    padding: 100vh 0 0 0;
+  }
+  
+  #para2 {
+    color: #fff;
+  }
+  
+  #para3 {
+    color: #fff;
+  }
+  
+  #para4 {
+    color: #fff;
+  }
+  
+  #para5 {
+    color: #fff;
+  }
+  
+  #para6 {
+    color: #fff;
+  }
+  
+  #para7 {
+    color: #679289;
+  }
+  
+  .warning {
+    display: none;
+    background-image: url("https://drive.google.com/uc?export=view&id=1vSt_H2-rI3GYi4j9DpZP36EQwVOjGmXn");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .warning h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .warning p {
+    margin: 0;
+    padding-top: 10px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .intro {
+      display: none;
+    }
+  
+    .warning {
+      display: block;
+    }
+  }
+  
+  .brandingLink {
+    text-decoration: none;
+    color: #000;
+  }
