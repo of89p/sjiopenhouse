@@ -257,7 +257,7 @@ html {
 /* STUDENT LEADERSHIP BANNER */
 .student_leadership_banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/test_landscape.jpg");
+    url("../img/caring_hearts/studentleadershipbanner.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;

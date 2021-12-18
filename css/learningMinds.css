@@ -76,7 +76,7 @@ html {
 }
 
 .learning_minds_banner:before {
-  background-image: url("../img/test_landscape.jpg");
+  background-image: url("../img/learning_minds/banner.JPG");
   transform: translateZ(-1px) scale(2);
   z-index: -1;
 }
@@ -441,8 +441,16 @@ html {
   padding: 0;
 }
 
-.card_img{
-  background-image: url("https://www.remax.co.th/Sites/remaxthailand/regionalweb/Investment/Real%20Estate%20Investor.jpg");
+.card_img1{
+  background-image: url("../img/learning_minds/learningminds2.png");
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.card_img2{
+  background-image: url("../img/learning_minds/learningminds2.png");
   background-size: cover;
   background-position: 0% 0%;
   background-repeat: no-repeat;
