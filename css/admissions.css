@@ -67,10 +67,11 @@ html {
 
 /* END BUTTONS */
 body {
-  background-image: url("../img/test_landscape.jpg");
+  background-image: url("../img/admissions/admissionsbg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 .banner {

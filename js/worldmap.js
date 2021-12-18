@@ -1,10 +1,18 @@
 var display = document.getElementById("displayArea")
 
 document.querySelector('#JP').addEventListener('click', function() {
-    description = "Japan placeholder description"
-    countryDescription(description);
+    header1 = "Ikeda Junior High School, Kagoshima, Japan"
+    header2 = "Morioka Chuo High School, Japan"
+    header3 = "Niigata Minami High School, Japan"
+    description1 = "Throughout the GEP that spanned a course of four months, students engaged in meaningful and fun interactions with the students from Ikeda Junior High School, through games such as Skribblio and Online Bingo. Participants from both schools also shared about their culture through powerpoint presentations. Josephians were introduced to Japanese food, pop music, anime and much more, while they shared about the local Singaporean delicacies, our school and favourite movies with their Japanese counterparts. Before their last GEP session, the team had the opportunity to participate in the Global Science Award (GSA), a prestigious science competition held by Ikeda Junior High School and supported by the Japanese Ministry of Education. During the competition, SJI’s five teams presented their science projects to a panel of judges. Against a tough fight with 64 other teams, one of SJI’s teams received the “Excellence” Award for their investigation on ant tunnelling."
+    description2 = ""
+    description3 = ""
+    imgName1 = "../img/logo.png"
+    imgName2 = ""
+    imgName3 = ""
+    countryDescription(description1, description2, description3, header1, header2, header3);
 
-    displayVideo("Japan", "");
+    displayVideo("Japan", imgName1, imgName2, imgName3);
     display.scrollIntoView({
         behavior: 'smooth'
     });
@@ -160,10 +168,18 @@ document.querySelector('#KH').addEventListener('click', function() {
     });
 });
 
-const displayVideo = (locationTitle, imgName) => {
+const displayVideo = (locationTitle, imgName1, imgName2, imgName3) => {
     document.querySelector('#locationTitle').innerHTML = locationTitle;
+    document.querySelector('#gep_image1').src = imgName1;
+    document.querySelector('#gep_image2').src = imgName2;
+    document.querySelector('#gep_image3').src = imgName3;
 }
 
-const countryDescription = (description) => {
-    document.querySelector('#text_description').innerHTML = description
+const countryDescription = (description1, description2, description3, header1, header2, header3) => {
+    document.querySelector('#text_description1').innerHTML = description1
+    document.querySelector('#text_description2').innerHTML = description2
+    document.querySelector('#text_description3').innerHTML = description3
+    document.querySelector('#text_header1').innerHTML = header1
+    document.querySelector('#text_header2').innerHTML = header2
+    document.querySelector('#text_header3').innerHTML = header3
 }

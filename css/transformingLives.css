@@ -82,23 +82,18 @@ body {
 .motto {
   position: relative;
   /* The image used */
-  background-image: url("../img/test_landscape.jpg");
+  background-image: url("../img/transforming_lives/motto.jpg");
 
   /* Set a specific height */
-  height: 50vh;
+  height: 70vh;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-}
-
-.motto_content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -112,7 +107,7 @@ body {
 }
 
 .motto_content p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* MISSION AND VISION */
@@ -290,6 +285,5 @@ body {
 
   .rightbox_content p {
     font-size: 16px;
-  }
   }
 }
