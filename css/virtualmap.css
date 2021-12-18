@@ -118,6 +118,10 @@ svg .track:hover circle {
   font-size: 15px;
 }
 
+.footer a{
+  color: #fff;
+}
+
 @media only screen and (max-width: 950px) {
   .tour_video {
     width: 100%;

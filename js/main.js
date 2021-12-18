@@ -1,2 +1,0 @@
-
-// ScrollReveal().reveal('.img3');

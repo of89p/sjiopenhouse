@@ -82,7 +82,7 @@ body {
 .motto {
   position: relative;
   /* The image used */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/transforming_lives/motto.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../img/transforming_lives/motto.jpg");
 
   /* Set a specific height */
   height: 80vh;
@@ -193,6 +193,10 @@ body {
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+.footer a{
+  color: #fff;
 }
 
 /* MEDIA QUERIES */

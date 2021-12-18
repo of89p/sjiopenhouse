@@ -47,5 +47,13 @@
 
 .ig_card {
     margin: 10px;
+}
 
+.footer {
+  background: #00664f;
+  color: #fff;
+  font-family: import_rasa;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 15px;
 }
