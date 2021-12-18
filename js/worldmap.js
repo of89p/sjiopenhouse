@@ -16,6 +16,8 @@ document.querySelector('#JP').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#CN').addEventListener('click', function() {
@@ -34,6 +36,16 @@ document.querySelector('#CN').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+    
+    carousellId = "china_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
 });
 
 document.querySelector('#TW').addEventListener('click', function() {
@@ -52,6 +64,8 @@ document.querySelector('#TW').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('.jerusalem').addEventListener('click', function() {
@@ -70,6 +84,8 @@ document.querySelector('.jerusalem').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#VN').addEventListener('click', function() {
@@ -88,6 +104,16 @@ document.querySelector('#VN').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    carousellId = "vietnam_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("china_carousell").style.display = "none";
 });
 
 document.querySelector('#KR').addEventListener('click', function() {
@@ -106,6 +132,8 @@ document.querySelector('#KR').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#AU').addEventListener('click', function() {
@@ -124,6 +152,16 @@ document.querySelector('#AU').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    carousellId = "australia_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("china_carousell").style.display = "none";
 });
 
 document.querySelector('#PH').addEventListener('click', function() {
@@ -142,6 +180,8 @@ document.querySelector('#PH').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#HK').addEventListener('click', function() {
@@ -160,6 +200,8 @@ document.querySelector('#HK').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#LA').addEventListener('click', function() {
@@ -178,6 +220,16 @@ document.querySelector('#LA').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    carousellId = "laos_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("china_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
 });
 
 document.querySelector('#MY').addEventListener('click', function() {
@@ -196,6 +248,16 @@ document.querySelector('#MY').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    carousellId = "malaysia_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("china_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
 });
 
 document.querySelector('#ID').addEventListener('click', function() {
@@ -214,6 +276,8 @@ document.querySelector('#ID').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#US').addEventListener('click', function() {
@@ -250,6 +314,16 @@ document.querySelector('#TH').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+    
+    carousellId = "thailand_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("cambodia_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("china_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
 });
 
 document.querySelector('#MM').addEventListener('click', function() {
@@ -268,6 +342,8 @@ document.querySelector('#MM').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#KH').addEventListener('click', function() {
@@ -286,6 +362,16 @@ document.querySelector('#KH').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+
+    carousellId = "cambodia_carousell"
+    countryCarousell(carousellId)
+
+    document.getElementById("china_carousell").style.display = "none";
+    document.getElementById("australia_carousell").style.display = "none";
+    document.getElementById("laos_carousell").style.display = "none";
+    document.getElementById("malaysia_carousell").style.display = "none";
+    document.getElementById("thailand_carousell").style.display = "none";
+    document.getElementById("vietnam_carousell").style.display = "none";
 });
 
 const displayVideo = (locationTitle, imgName1, imgName2, imgName3) => {
@@ -302,4 +388,12 @@ const countryDescription = (description1, description2, description3, header1, h
     document.querySelector('#text_header1').innerHTML = header1
     document.querySelector('#text_header2').innerHTML = header2
     document.querySelector('#text_header3').innerHTML = header3
+}
+
+const countryCarousell = (carousellId) => {
+    document.getElementById(carousellId).style.display = "block";
+}
+
+const countryCarousellNone = (carousellId) => {
+    document.getElementById(carousellId).style.display = "none";
 }

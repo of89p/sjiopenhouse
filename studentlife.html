@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/flexboxgrid.css">
-    <link rel="stylesheet" href="./css/credits.css">
+    <link rel="stylesheet" href="./css/studentlife.css">
     <title>SJI Open House | Webinars & Online Resources</title>
 </head>
 <body>
@@ -52,10 +52,10 @@
                             <li><a href="admissions.html">Admission</a></li>
                             <li><a href="webinars.html">Webinars/Online Resources</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="#">Student Life</a></li>
+                            <li><a href="studentlife.html">Student Life</a></li>
                             <li><a href="virtualmap.html">Virtual Tour</a></li>
                             <li><a href="socialmedia.html">Social Media Posts</a></li>
-                            <li><a href="#">Subjects</a></li>
+                            <li><a href="learningminds.html#subjects">Subjects</a></li>
                         </ul>
                         </div>
                     </div>
@@ -137,14 +137,18 @@
 
 
 
-                <!-- <p>A short photo journal</p>
+                <p>A short photo journal of student life in SJI</p>
                 <span style="display:inline-block;height: 5vh;"></span>
-                <p>SJIPictures is a collaboration between SJI Coding and Technology CAS and Photography CAS</p>
+                <p>This Open House Website was programmed by SJI's Coding and Technology CAS</p>
+                <br><br><br><br>
+                <div style="text-align:center;">
+                    <img style="width: 60%;" src="./img/studentlife/credits1.png">
+                </div>
                 <span style="display:inline-block;height: 5vh;"></span>
-                <p>Written and programmed by Terence Teo</p>
+                <p>With great support from The 9th Student Council, Photography CAS and Film CAS.</p>
                 <span style="display:inline-block;height: 5vh;"></span>
-                <p id="para8">Capture the stills in this world of motion. Submit your pictures <a href="/submission.html">here</a></p>
-                <span style="display:inline-block;height: 50vh;"></span> -->
+                <p id="para8">This project w</p>
+                <span style="display:inline-block;height: 50vh;"></span>
                 
                 <!-- <section id="para8" class="footer">
                     <h3>St. Joseph's Institution</h3>
@@ -177,6 +181,7 @@
 var scrollUp = false;
 var section = 1;  
 
+
 //TO DETERMINE SCROLL DIRECTION
 var lastScrollTop = 0;
 window.addEventListener("scroll", function(){ 
@@ -189,6 +194,7 @@ if (st > lastScrollTop){
 lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
 
+// changeBackground(1);
 
 //CHANGE BACKGROUND IMG MECHANISM
 window.addEventListener("scroll", function() {
@@ -305,38 +311,38 @@ const changeBackground = (number) => {
     // x.style.backgroundImage = "url('https://drive.google.com/uc?export=view&id=1ZsKS-GS71fvuNyQTSt_ENp3xVQQFCLRY')";
     if(number == 2){
         let x= document.querySelector(".intro");
-        x.style.backgroundImage = "url('./img/01/DSC_0410.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/1.jpeg')";
     }
 
     // TAY BLUR FACE AND BUS
     if(number == 3){
         let x= document.querySelector(".intro");
-        x.style.backgroundImage = "url('./img/01/DSC_0413.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/2.jpeg')";
     }
 
     // TAY BLUR FACE AND ANH
     if(number == 4){
         let x= document.querySelector(".intro");
-        x.style.backgroundImage = "url('./img/01/DSC_0417.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/3.jpg')";
     }
 
     // PAULINE AND ANH
     if(number == 5){
         let x= document.querySelector(".intro");
-        x.style.backgroundImage = "url('./img/01/DSC_0405.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/4.jpg')";
     }
 
     // BEAR 
     if(number == 6){
         let x= document.querySelector(".intro");
-        x.style.backgroundImage = "url('./img/01/DSC_0389.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/5.jpeg')";
     }
 
     // LAMP
     if(number == 7){
         let x= document.querySelector(".intro");
         // x.style.backgroundColor = "#fff";
-        x.style.backgroundImage = "url('./img/01/DSC_0392.JPG')";
+        x.style.backgroundImage = "url('./img/studentlife/6.jpg')";
     }
 
     // LAMP

@@ -509,23 +509,6 @@ html {
   transition: stroke 0.5s;
   cursor: pointer;
 }
-.jerusalem:hover {
-  fill: rgb(226, 226, 226);
-  
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-  cursor: pointer;
-}
-
-.jerusalem:hover .mapmarker{
-  fill: rgb(226, 226, 226);
-  stroke-width: 10px;
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-  cursor: pointer;
-}
 
 #VN:hover {
   fill: rgb(226, 226, 226);
@@ -660,6 +643,22 @@ html {
 #displayArea p {
   font-family: import_roboto_regular;
 }
+
+#displayArea strong {
+  font-size: 25px;
+  font-family: import_roboto_regular;
+}
+
+#displayArea h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#cambodia_carousell, #australia_carousell, #laos_carousell, #malaysia_carousell, #thailand_carousell, #vietnam_carousell, #china_carousell {
+  display: none;
+}
+
+
 /* FOOTER */
 .footer {
   background: #00664f;
@@ -799,6 +798,10 @@ html {
       blink 0.5s step-end infinite alternate;
     animation-fill-mode: forwards;
     /* border-right: 3px solid; */
+  }
+
+  #gep_image1, #gep_image2, #gep_image3 {
+    width: 80vw;
   }
 }
 
