@@ -118,7 +118,13 @@
 }
 
 .list {
-  overflow-x: scroll;
+  box-sizing: content-box;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .menu-wrap .menu > div {

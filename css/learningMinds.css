@@ -147,6 +147,7 @@ html {
 .six_academic_grp_text {
   text-align: justify;
   font-family: import_rasa;
+  font-size: 20px;
 }
 
 /* .academic_cards {
@@ -429,6 +430,10 @@ html {
   color: #fff;
   border: 2px solid #00664f;
   padding: 1rem;
+}
+
+.computerCardContainer p {
+  font-size: 18px
 }
 
 .mobileCardContainer{
