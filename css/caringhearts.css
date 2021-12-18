@@ -229,7 +229,7 @@ html {
 
 .cas p {
   font-family: import_roboto_regular;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -578,14 +578,7 @@ html {
   transition: stroke 0.5s;
   cursor: pointer;
 }
-#ID:hover {
-  fill: rgb(226, 226, 226);
-  stroke-width: 0.7px;
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-  cursor: pointer;
-}
+
 #US:hover {
   fill: rgb(226, 226, 226);
   stroke-width: 0.7px;
@@ -801,7 +794,7 @@ html {
   }
 
   #gep_image1, #gep_image2, #gep_image3 {
-    width: 80vw;
+    width: 70vw;
   }
 }
 

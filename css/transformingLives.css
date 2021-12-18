@@ -82,10 +82,10 @@ body {
 .motto {
   position: relative;
   /* The image used */
-  background-image: url("../img/transforming_lives/motto.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/transforming_lives/motto.jpg");
 
   /* Set a specific height */
-  height: 70vh;
+  height: 80vh;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -104,10 +104,12 @@ body {
 
 .motto_content h3 {
   font-size: 40px;
+  color: #e5e5e5;
 }
 
 .motto_content p {
   font-size: 30px;
+  color: #e5e5e5;
 }
 
 /* MISSION AND VISION */

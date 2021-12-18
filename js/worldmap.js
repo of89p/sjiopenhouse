@@ -68,25 +68,7 @@ document.querySelector('#TW').addEventListener('click', function() {
     countryCarousellNone(carousellId)
 });
 
-document.querySelector('.jerusalem').addEventListener('click', function() {
-    header1 = ""
-    header2 = ""
-    header3 = ""
-    description1 = ""
-    description2 = ""
-    description3 = ""
-    imgName1 = ""
-    imgName2 = ""
-    imgName3 = ""
-    countryDescription(description1, description2, description3, header1, header2, header3);
 
-    displayVideo("Jerusalem", imgName1, imgName2, imgName3);
-    display.scrollIntoView({
-        behavior: 'smooth'
-    });
-
-    countryCarousellNone(carousellId)
-});
 
 document.querySelector('#VN').addEventListener('click', function() {
     header1 = ""
@@ -260,25 +242,6 @@ document.querySelector('#MY').addEventListener('click', function() {
     document.getElementById("vietnam_carousell").style.display = "none";
 });
 
-document.querySelector('#ID').addEventListener('click', function() {
-    header1 = ""
-    header2 = ""
-    header3 = ""
-    description1 = ""
-    description2 = ""
-    description3 = ""
-    imgName1 = ""
-    imgName2 = ""
-    imgName3 = ""
-    countryDescription(description1, description2, description3, header1, header2, header3);
-
-    displayVideo("Indonesia", imgName1, imgName2, imgName3);
-    display.scrollIntoView({
-        behavior: 'smooth'
-    });
-
-    countryCarousellNone(carousellId)
-});
 
 document.querySelector('#US').addEventListener('click', function() {
     header1 = "Union Grove High School, Atlanta, Georgia, United States of America"
@@ -296,6 +259,7 @@ document.querySelector('#US').addEventListener('click', function() {
     display.scrollIntoView({
         behavior: 'smooth'
     });
+    countryCarousellNone(carousellId)
 });
 
 document.querySelector('#TH').addEventListener('click', function() {
