@@ -68,6 +68,10 @@ html {
   font-size: 15px;
 }
 
+.footer a{
+  color: #fff;
+}
+
 /* 
 
 MEDIA QUERIES

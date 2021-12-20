@@ -181,7 +181,7 @@ html {
 
 .circle_picture {
   height: 70vh;
-  background-image: url("../img/test_landscape.jpg");
+  background-image: url("../img/index/parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ html {
   width: 40%;
   text-align: center;
   text-justify: inter-word;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*GREETINGS*/
@@ -452,4 +452,8 @@ html {
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+.footer a{
+  color: #fff;
 }

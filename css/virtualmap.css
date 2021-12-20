@@ -25,45 +25,58 @@ html {
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
-svg .foundershall:hover path {
-  stroke: blue;
-  cursor: pointer;
+.svg_container {
+  width: 80%;
+  margin: auto;
 }
 
-svg .chapel:hover path {
-  stroke: green;
-  cursor: pointer;
-}
-svg .foyer:hover path {
-  stroke: green;
-  cursor: pointer;
-}
-svg .ibblock:hover path {
-  stroke: red;
-  cursor: pointer;
-}
-svg .ish:hover path {
-  stroke: purple;
-  cursor: pointer;
-}
-svg .library:hover path {
+svg .foundershall:hover path {
   stroke: #00664f;
   cursor: pointer;
 }
 
-svg .track:hover path {
-  stroke: yellow;
+svg .chapel:hover path {
+  stroke: #00664f;
   cursor: pointer;
+  transition: stroke 0.3s;
+}
+svg .foyer:hover path {
+  stroke: #00664f;
+  cursor: pointer;
+  transition: stroke 0.3s;
+}
+svg .ibblock:hover path {
+  stroke: #00664f;
+  cursor: pointer;
+  transition: stroke 0.3s
+}
+svg .ish:hover path {
+  stroke: #00664f;
+  cursor: pointer;
+  transition: stroke 0.3s;
+}
+svg .library:hover path {
+  stroke: #00664f;
+  cursor: pointer;
+  transition: stroke 0.3s;
+}
+
+svg .track:hover path {
+  stroke: #00664f;
+  cursor: pointer;
+  transition: stroke 0.3s;
 }
 
 svg .track:hover ellipse {
-  stroke: yellow;
+  stroke: #00664f;
   cursor: pointer;
+  transition: stroke 0.3s;
 }
 
 svg .track:hover circle {
-  stroke: yellow;
+  stroke: #00664f;
   cursor: pointer;
+  transition: stroke 0.3s;
 }
 
 #displayArea {
@@ -79,6 +92,22 @@ svg .track:hover circle {
   font-family: import_roboto_regular;
 }
 
+.tour_video {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  padding-top: 45%;
+}
+
+.tour_video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 /* footer */
 .footer {
   background: #00664f;
@@ -87,4 +116,22 @@ svg .track:hover circle {
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+.footer a{
+  color: #fff;
+}
+
+@media only screen and (max-width: 950px) {
+  .tour_video {
+    width: 100%;
+    padding-top: 56%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .svg_container {
+    width: 100%;
+  }
 }

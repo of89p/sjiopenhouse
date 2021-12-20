@@ -229,7 +229,7 @@ html {
 
 .cas p {
   font-family: import_roboto_regular;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -257,7 +257,7 @@ html {
 /* STUDENT LEADERSHIP BANNER */
 .student_leadership_banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/test_landscape.jpg");
+    url("../img/caring_hearts/studentleadershipbanner.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -350,15 +350,135 @@ html {
 }
 
 /* GEP carousell */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-container img {
+  height: 600px;
+  width: auto;
+  margin: 0 !important;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "button" to the right */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100% !important;
+  text-align: left !important;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* GEP MAP */
 .map {
+  width: 80%;
   display: flex;
   justify-content: center;
   fill: rgb(242, 242, 242);
   stroke: white;
   stroke-width: 1px;
+  margin: auto;
 }
+
 .map .gepcountries {
   fill: rgb(129, 129, 129);
   stroke: #00664f;
@@ -371,6 +491,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #CN:hover {
   fill: rgb(226, 226, 226);
@@ -378,6 +499,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #TW:hover {
   fill: rgb(226, 226, 226);
@@ -385,20 +507,16 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
-.jerusalem :hover {
-  fill: rgb(226, 226, 226);
-  stroke-width: 0.7px;
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-}
+
 #VN:hover {
   fill: rgb(226, 226, 226);
   stroke-width: 0.7px;
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #KR:hover {
   fill: rgb(226, 226, 226);
@@ -406,6 +524,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #AU:hover {
   fill: rgb(226, 226, 226);
@@ -413,6 +532,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #PH:hover {
   fill: rgb(226, 226, 226);
@@ -420,13 +540,25 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
-#HK:hover {
+
+.hongkong:hover {
   fill: rgb(226, 226, 226);
   stroke-width: 0.7px;
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
+}
+
+.hongkong:hover .mapmarker{
+  fill: rgb(226, 226, 226);
+  stroke-width: 10px;
+  stroke: #00b68b;
+  transition: fill 0.5s;
+  transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #LA:hover {
@@ -435,6 +567,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #MY:hover {
@@ -443,20 +576,16 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
-#ID:hover {
-  fill: rgb(226, 226, 226);
-  stroke-width: 0.7px;
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-}
+
 #US:hover {
   fill: rgb(226, 226, 226);
   stroke-width: 0.7px;
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #TH:hover {
   fill: rgb(226, 226, 226);
@@ -464,6 +593,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 #MM:hover {
   fill: rgb(226, 226, 226);
@@ -471,6 +601,7 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
 
 #KH:hover {
@@ -479,7 +610,48 @@ html {
   stroke: #00b68b;
   transition: fill 0.5s;
   transition: stroke 0.5s;
+  cursor: pointer;
 }
+.mapmarker {
+  fill:rgb(129, 129, 129);
+  stroke:#00664f;
+  stroke-width: 10px;
+  transform: scale(0.05);
+}
+
+#displayArea {
+  width: 80%;
+  margin: auto;
+}
+
+#displayArea h1 {
+  font-family: import_roboto_bold;
+}
+
+.display_tip {
+  font-size: 14px;
+  font-style: italic;
+}
+
+#displayArea p {
+  font-family: import_roboto_regular;
+  font-size: 16px;
+}
+
+#displayArea strong {
+  font-size: 25px;
+  font-family: import_roboto_regular;
+}
+
+#displayArea h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#cambodia_carousell, #australia_carousell, #laos_carousell, #malaysia_carousell, #thailand_carousell, #vietnam_carousell, #china_carousell {
+  display: none;
+}
+
 
 /* FOOTER */
 .footer {
@@ -489,6 +661,10 @@ html {
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+.footer a{
+  color: #fff;
 }
 
 /* MEDIA QUERY */
@@ -620,6 +796,10 @@ html {
       blink 0.5s step-end infinite alternate;
     animation-fill-mode: forwards;
     /* border-right: 3px solid; */
+  }
+
+  #gep_image1, #gep_image2, #gep_image3 {
+    width: 70vw;
   }
 }
 

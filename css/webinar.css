@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  /* IMPORT THE ROBOTO GOOGLE FONT */
+  @font-face {
+    font-family: import_roboto_regular;
+    src: url(../Roboto/Roboto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: import_roboto_bold;
+    src: url(../Roboto/Roboto-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: import_rasa;
+    src: url(../Rasa/Rasa-VariableFont_wght.ttf);
+  }
+  /* END IMPORT THE ROBOTO GOOGLE FONT*/
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1 {
+      font-size: 40px;
+      font-family: import_rasa;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: import_rasa;
+  }
+
+  #schedule {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #schedule td, #schedule th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #schedule tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #schedule tr:hover {background-color: #ddd;}
+  
+  #schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00664f;
+    color: white;
+  }
+
+
+  .button_green {
+    text-decoration: none;
+    background-color: white;
+    color: #00664f;
+    border: 2px solid #00664f;
+    padding: 1rem;
+    transition-duration: 0.2s;
+  }
+  
+  .button_green:hover {
+    text-decoration: none;
+    background-color: #00664f;
+    color: #fff;
+    border: 2px solid #00664f;
+    padding: 1rem;
+  }
+  
+  .button_white {
+    text-decoration: none;
+    background-color: #00664f;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem;
+    transition-duration: 0.2s;
+  }
+  
+  .button_white:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #00664f;
+    border: 2px solid #fff;
+    padding: 1rem;
+  }
+
+  .subjects_card{
+      text-align: center;
+      background: #00664f;
+      color: #fff;
+      padding: 40px;
+  }
+
+/* FOOTER */
+.footer {
+    background: #00664f;
+    color: #fff;
+    font-family: import_rasa;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-size: 15px;
+}
+
+.footer a{
+    color: #fff;
+}

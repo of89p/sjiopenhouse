@@ -76,7 +76,7 @@ html {
 }
 
 .learning_minds_banner:before {
-  background-image: url("../img/test_landscape.jpg");
+  background-image: url("../img/learning_minds/banner.JPG");
   transform: translateZ(-1px) scale(2);
   z-index: -1;
 }
@@ -130,7 +130,7 @@ html {
 }
 
 .six_academic_grp {
-  margin: 30px 0 30px 0;
+  margin: -130px 0 30px 0;
 }
 
 .six_academic_grp_img {
@@ -147,6 +147,7 @@ html {
 .six_academic_grp_text {
   text-align: justify;
   font-family: import_rasa;
+  font-size: 20px;
 }
 
 /* .academic_cards {
@@ -174,6 +175,14 @@ html {
 .individual_card {
   text-align: center;
   position: relative;
+}
+
+.individual_card h3{
+  font-size: 22px;
+}
+
+.individual_card li{
+  font-size: 18px;
 }
 
 .box_card {
@@ -225,6 +234,7 @@ html {
   width: 80%;
   text-align: justify;
   font-family: import_rasa;
+  font-size: 20px;
 }
 
 .tok_video {
@@ -327,6 +337,10 @@ html {
   font-size: 15px;
 }
 
+.footer a{
+  color: #fff;
+}
+
 .Container-1 {
   background-color: #00664f;
   color: white;
@@ -373,8 +387,9 @@ html {
 
 .Image-2 {
   position: absolute;
+  width: 10px;
   top: -10vh;
-  left: -25vw;
+  left: -20vw;
   right: 0;
   bottom: 0;
 }
@@ -382,7 +397,7 @@ html {
 .Img {
   max-width: 35vw;
   min-width: 60px;
-  max-height: 32vw;
+  max-height: 40vw;
   min-height: 130px;
 }
 
@@ -430,10 +445,61 @@ html {
   padding: 1rem;
 }
 
+.computerCardContainer p {
+  font-size: 18px
+}
+
+.mobileCardContainer{
+  display: none;
+  width: 80%;
+  margin: auto;
+}
+
+.mobileCardContainer .box{
+  padding: 0;
+}
+
+.card_img1{
+  background-image: url("../img/learning_minds/learningminds2.png");
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.card_img2{
+  background-image: url("../img/learning_minds/hay.png");
+  background-size: cover;
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.mobileCardContainer .card_text{
+  background-color: #00664f;
+  color: #fff;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .computerCardContainer{
+    display: none;
+  }
+
+  .mobileCardContainer{
+    display: block;
+  }
+}
+
+
 @media only screen and (max-width: 1380px) {
   .green_rect1 img {
     height: 650px;
     width: 400px;
+  }
+
+  .Image-2 {
+    left: -24vw;
   }
 }
 
