@@ -41,7 +41,6 @@ document.querySelector('#CN').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("laos_carousell").style.display = "none";
     document.getElementById("malaysia_carousell").style.display = "none";
     document.getElementById("thailand_carousell").style.display = "none";
@@ -91,7 +90,6 @@ document.querySelector('#VN').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("laos_carousell").style.display = "none";
     document.getElementById("malaysia_carousell").style.display = "none";
     document.getElementById("thailand_carousell").style.display = "none";
@@ -118,33 +116,6 @@ document.querySelector('#KR').addEventListener('click', function() {
     countryCarousellNone(carousellId)
 });
 
-document.querySelector('#AU').addEventListener('click', function() {
-    header1 = ""
-    header2 = ""
-    header3 = ""
-    description1 = ""
-    description2 = ""
-    description3 = ""
-    imgName1 = ""
-    imgName2 = ""
-    imgName3 = ""
-    countryDescription(description1, description2, description3, header1, header2, header3);
-
-    displayVideo("Australia", imgName1, imgName2, imgName3);
-    display.scrollIntoView({
-        behavior: 'smooth'
-    });
-
-    carousellId = "australia_carousell"
-    countryCarousell(carousellId)
-
-    document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("vietnam_carousell").style.display = "none";
-    document.getElementById("laos_carousell").style.display = "none";
-    document.getElementById("malaysia_carousell").style.display = "none";
-    document.getElementById("thailand_carousell").style.display = "none";
-    document.getElementById("china_carousell").style.display = "none";
-});
 
 document.querySelector('#PH').addEventListener('click', function() {
     header1 = "Lasallian INternational Experience (LINE) Hong Kong – Japan – Malaysia – Myanmar – Philippines – Thailand "
@@ -207,7 +178,6 @@ document.querySelector('#LA').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("china_carousell").style.display = "none";
     document.getElementById("malaysia_carousell").style.display = "none";
     document.getElementById("thailand_carousell").style.display = "none";
@@ -235,7 +205,6 @@ document.querySelector('#MY').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("laos_carousell").style.display = "none";
     document.getElementById("china_carousell").style.display = "none";
     document.getElementById("thailand_carousell").style.display = "none";
@@ -283,7 +252,6 @@ document.querySelector('#TH').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("cambodia_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("laos_carousell").style.display = "none";
     document.getElementById("malaysia_carousell").style.display = "none";
     document.getElementById("china_carousell").style.display = "none";
@@ -331,7 +299,6 @@ document.querySelector('#KH').addEventListener('click', function() {
     countryCarousell(carousellId)
 
     document.getElementById("china_carousell").style.display = "none";
-    document.getElementById("australia_carousell").style.display = "none";
     document.getElementById("laos_carousell").style.display = "none";
     document.getElementById("malaysia_carousell").style.display = "none";
     document.getElementById("thailand_carousell").style.display = "none";

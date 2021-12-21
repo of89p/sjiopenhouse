@@ -213,7 +213,32 @@ html {
 .cas_intro ul {
   margin-left: 50px;
 }
+/* TABLE */
+#cas {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
 
+#cas td,
+#cas th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  vertical-align: top;
+}
+
+#cas td:hover {
+  background-color: #e5e5e5;
+}
+
+#cas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00664f;
+  color: white;
+}
 /* CAS */
 .cas h2 {
   font-family: import_roboto_bold;
@@ -253,79 +278,6 @@ html {
   justify-content: center;
   align-items: center;
   padding: 50px;
-}
-/* STUDENT LEADERSHIP BANNER */
-.student_leadership_banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/caring_hearts/studentleadershipbanner.jpg");
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.student_leadership_banner_text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 30px;
-  padding: 20px;
-  border: solid #fff 2px;
-}
-
-.student_leadership_graphics {
-  background-color: #fff;
-}
-
-.student_leadership_graphics img {
-  width: 100%;
-  height: auto;
-}
-
-.student_leadership_image_divider {
-  background-image: url("../img/caring_hearts/parallax.jpg");
-  height: 900px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: -1;
-}
-
-.student_leadership1 {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  padding: 100px;
-}
-
-.student_leadership1 h3 {
-  font-family: import_roboto_regular;
-  font-size: 40px;
-}
-
-.student_leadership1 p {
-  font-family: import_roboto_regular;
-  font-size: 16px;
-}
-
-.student_leadership2 {
-  background-color: #fff;
-  margin-top: -200px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  padding: 100px;
-}
-
-.student_leadership2 h3 {
-  font-family: import_roboto_regular;
-  font-size: 40px;
-}
-
-.student_leadership2 p {
-  font-family: import_roboto_regular;
-  font-size: 16px;
 }
 
 /* GEP */
@@ -526,14 +478,7 @@ html {
   transition: stroke 0.5s;
   cursor: pointer;
 }
-#AU:hover {
-  fill: rgb(226, 226, 226);
-  stroke-width: 0.7px;
-  stroke: #00b68b;
-  transition: fill 0.5s;
-  transition: stroke 0.5s;
-  cursor: pointer;
-}
+
 #PH:hover {
   fill: rgb(226, 226, 226);
   stroke-width: 0.7px;
@@ -552,7 +497,7 @@ html {
   cursor: pointer;
 }
 
-.hongkong:hover .mapmarker{
+.hongkong:hover .mapmarker {
   fill: rgb(226, 226, 226);
   stroke-width: 10px;
   stroke: #00b68b;
@@ -613,8 +558,8 @@ html {
   cursor: pointer;
 }
 .mapmarker {
-  fill:rgb(129, 129, 129);
-  stroke:#00664f;
+  fill: rgb(129, 129, 129);
+  stroke: #00664f;
   stroke-width: 10px;
   transform: scale(0.05);
 }
@@ -648,10 +593,15 @@ html {
   text-align: center;
 }
 
-#cambodia_carousell, #australia_carousell, #laos_carousell, #malaysia_carousell, #thailand_carousell, #vietnam_carousell, #china_carousell {
+#cambodia_carousell,
+#australia_carousell,
+#laos_carousell,
+#malaysia_carousell,
+#thailand_carousell,
+#vietnam_carousell,
+#china_carousell {
   display: none;
 }
-
 
 /* FOOTER */
 .footer {
@@ -663,7 +613,7 @@ html {
   font-size: 15px;
 }
 
-.footer a{
+.footer a {
   color: #fff;
 }
 
@@ -798,7 +748,9 @@ html {
     /* border-right: 3px solid; */
   }
 
-  #gep_image1, #gep_image2, #gep_image3 {
+  #gep_image1,
+  #gep_image2,
+  #gep_image3 {
     width: 70vw;
   }
 }

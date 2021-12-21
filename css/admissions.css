@@ -67,7 +67,7 @@ html {
 
 /* END BUTTONS */
 body {
-  background-image: url("../img/admissions/admissionsbg.jpg");
+  background-image: url("../img/admissions/unnamed.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -134,7 +134,7 @@ body {
   font-size: 15px;
 }
 
-.footer a{
+.footer a {
   color: #fff;
 }
 
