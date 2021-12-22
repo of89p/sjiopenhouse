@@ -18,7 +18,7 @@ html {
   font-family: import_roboto_bold;
   src: url(../Roboto/Roboto-Bold.ttf);
 }
-
+ 
 @font-face {
   font-family: import_rasa;
   src: url(../Rasa/Rasa-VariableFont_wght.ttf);
@@ -26,13 +26,10 @@ html {
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
 .card_grp {
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
-.card_grp .card_img {
-  height: 40vh;
-}
 
 .card_grp h1 {
   color: #00664f;
@@ -41,21 +38,21 @@ html {
 }
 
 .img1 {
-  background-image: url("../img/testimonials/alex.jpg");
+  /* background-image: url("../img/testimonials/alex.jpg");
   background-size: cover;
   background-position: 0% 0%;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; */
+  width: 100%;
+  margin: 0 0 30px 0;
+} 
 
 .card_text {
-  background-color: #00664f;
-  color: #fff;
-  padding: 20px;
+  color: #000;
   font-family: import_rasa;
 }
 
-.card_text h2 {
-  margin: 0 0 10px 0;
+.card_text p {
+  font-size: 20px;
 }
 
 /* FOOTER */

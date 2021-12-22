@@ -215,7 +215,7 @@ html {
 }
 /* TABLE */
 #cas {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: import_roboto_regular;
   border-collapse: collapse;
   width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -238,6 +238,10 @@ html {
   text-align: center;
   background-color: #00664f;
   color: white;
+}
+
+#cas ul {
+  list-style-type: square;
 }
 /* CAS */
 .cas h2 {
@@ -643,7 +647,7 @@ html {
   }
 
   .GEP p {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
