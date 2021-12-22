@@ -25,7 +25,7 @@ html {
 }
 /* END IMPORT THE ROBOTO GOOGLE FONT*/
 
-.svg_container {
+.schoolmap {
   width: 80%;
   margin: auto;
 }
@@ -127,6 +127,14 @@ svg .track:hover circle {
     width: 100%;
     padding-top: 56%;
     margin: auto;
+  }
+
+  .schoolmap_container {
+    overflow-x: scroll;
+  }
+
+  .schoolmap {
+    width: 1200px;
   }
 }
 

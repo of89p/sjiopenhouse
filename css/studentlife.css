@@ -120,11 +120,11 @@ h1 {
 
 .warning {
   display: none;
-  background-image: url("https://drive.google.com/uc?export=view&id=1vSt_H2-rI3GYi4j9DpZP36EQwVOjGmXn");
+  background-image: url("../img/studentlife/0.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #fff;
+  color: #000;
   height: 100vh;
   overflow-x: hidden;
 }

@@ -30,6 +30,23 @@
     margin: auto;
   }
   
+  .button_white {
+    text-decoration: none;
+    background-color: #e5e5e5;
+    color: #00664f;
+    border: 2px solid #00664f;
+    padding: 1rem;
+    transition-duration: 0.2s;
+  }
+  
+  .button_white:hover {
+    text-decoration: none;
+    background-color: #00664f;
+    color: #e5e5e5;
+    border: 2px solid #00664f;
+    padding: 1rem;
+  }
+
   h1 {
       font-size: 40px;
       font-family: import_rasa;
@@ -42,8 +59,16 @@
   .news_card {
       margin: 10px;
       background-color: #e5e5e5;
-      height: 500px;
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
+
+.news_content {
+  text-align: center;
+}
 
 .ig_card {
     margin: 10px;
@@ -56,4 +81,8 @@
   text-align: center;
   padding: 30px 0 30px 0;
   font-size: 15px;
+}
+
+.footer a {
+  color: #fff;
 }
