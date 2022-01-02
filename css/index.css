@@ -17,7 +17,7 @@ html {
 @font-face {
   font-family: import_roboto_bold;
   src: url(../Roboto/Roboto-Bold.ttf);
-}
+} 
 
 @font-face {
   font-family: import_rasa;
@@ -74,6 +74,11 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   /* -webkit-overflow-scrolling: touch; */
+}
+
+.h3_cur{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
 }
 
 .parallax_layer {
