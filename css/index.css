@@ -327,6 +327,9 @@ html {
   position: relative;
 }
 
+.greetings a {
+  color: #fff;
+}
 /* POLAROIDS */
 .polaroid_row {
   margin-top: 1rem;

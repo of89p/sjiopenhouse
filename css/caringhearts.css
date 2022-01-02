@@ -319,10 +319,6 @@ html {
   margin: 0 !important;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Next & previous buttons */
 .prev,
