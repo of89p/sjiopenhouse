@@ -101,7 +101,7 @@ body {
   padding: 100px;
   text-align: center;
   border-radius: 5px;
-  font-family: import_rasa;
+  font-family: import_roboto_regular;
 }
 
 .card_impt {
@@ -111,7 +111,7 @@ body {
   padding: 50px;
   text-align: center;
   border-radius: 5px;
-  font-family: import_rasa;
+  font-family: import_roboto_regular;
 }
 
 .card p {

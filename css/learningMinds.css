@@ -153,6 +153,13 @@ html {
   justify-content: center;
 }
 
+.cardg {
+  background-color: #00664f;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
 /* .academic_cards {
   background: #00664f;
   padding: 30px;
@@ -483,7 +490,7 @@ html {
 }
 
 .mobileCardContainer {
-  display: none;
+  display: block;
   width: 80%;
   margin: auto;
 }
@@ -495,9 +502,9 @@ html {
 .card_img1 {
   background-image: url("../img/learning_minds/learningminds2.png");
   background-size: cover;
-  background-position: 0% 0%;
+  background-position: 100% 0%;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 60vh;
 }
 
 .card_img2 {

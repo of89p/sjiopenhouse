@@ -447,13 +447,12 @@ MAIN PAGE MEDIA QUERIES
     margin: auto;
   }
 
-  .container{
+  .container {
     width: 95%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-
   .polaroid_white {
     margin-bottom: 50px;
   }
@@ -526,5 +525,54 @@ MAIN PAGE MEDIA QUERIES
 
   .sji_logo_navbar img {
     width: 25px;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .greetings_text h2 {
+    font-size: 50px;
+  }
+
+  .greetings_text h3 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .greetings_text h2 {
+    font-size: 40px;
+  }
+
+  .greetings_text h3 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .greetings_text p {
+    font-size: 15px;
+  }
+
+  .greetings img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  .greetings_text h2 {
+    font-size: 30px;
+  }
+
+  .greetings_text h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .greetings_text p {
+    font-size: 10px;
+  }
+
+  .greetings img {
+    width: 30%;
   }
 }
