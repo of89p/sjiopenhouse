@@ -1,77 +1,81 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    overflow-x: hidden;
-  }
-  
-  /* IMPORT THE ROBOTO GOOGLE FONT */
-  @font-face {
-    font-family: import_roboto_regular;
-    src: url(../Roboto/Roboto-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: import_roboto_bold;
-    src: url(../Roboto/Roboto-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: import_rasa;
-    src: url(../Rasa/Rasa-VariableFont_wght.ttf);
-  }
-  /* END IMPORT THE ROBOTO GOOGLE FONT*/
-  
-  .container {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .button_white {
-    text-decoration: none;
-    background-color: #e5e5e5;
-    color: #00664f;
-    border: 2px solid #00664f;
-    padding: 1rem;
-    transition-duration: 0.2s;
-  }
-  
-  .button_white:hover {
-    text-decoration: none;
-    background-color: #00664f;
-    color: #e5e5e5;
-    border: 2px solid #00664f;
-    padding: 1rem;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  h1 {
-      font-size: 40px;
-      font-family: import_rasa;
-  }
+html {
+  overflow-x: hidden;
+}
 
-  .content {
-       margin-top: 100px;
-  }
+/* IMPORT THE ROBOTO GOOGLE FONT */
+@font-face {
+  font-family: import_roboto_regular;
+  src: url(../Roboto/Roboto-Regular.ttf);
+}
 
-  .news_card {
-      margin: 10px;
-      background-color: #e5e5e5;
-      padding: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  }
+@font-face {
+  font-family: import_roboto_bold;
+  src: url(../Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: import_rasa;
+  src: url(../Rasa/Rasa-VariableFont_wght.ttf);
+}
+/* END IMPORT THE ROBOTO GOOGLE FONT*/
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button_white {
+  text-decoration: none;
+  background-color: #e5e5e5;
+  color: #00664f;
+  border: 2px solid #00664f;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+.button_white:hover {
+  text-decoration: none;
+  background-color: #00664f;
+  color: #e5e5e5;
+  border: 2px solid #00664f;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: import_rasa;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.news_card {
+  margin: 10px;
+  background-color: #e5e5e5;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.news_card h1 {
+  padding-bottom: 20px;
+}
 
 .news_content {
   text-align: center;
 }
 
 .ig_card {
-    margin: 10px;
+  margin: 10px;
 }
 
 .footer {
