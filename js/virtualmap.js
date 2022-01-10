@@ -1,7 +1,7 @@
 var display = document.getElementById("displayArea")
 
 document.querySelector('.foundershall').addEventListener('click', function() {
-    displayVideo("Founders Hall", "https://drive.google.com/file/d/15CpU9-cGNo8V41U_Gut8pltGx9BegIv9/preview");
+    displayVideo("Founders Hall", "https://drive.google.com/file/d/1--kwATqPKx3jxvtlhwqUmhCZB1G4Wwyg/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -9,7 +9,7 @@ document.querySelector('.foundershall').addEventListener('click', function() {
 });
 
 document.querySelector('.chapel').addEventListener('click', function() {
-    displayVideo("Chapel", "https://drive.google.com/file/d/1mnrlTDVTtUgM8nj647L8aSGJ4eZYHA7h/preview");
+    displayVideo("Chapel", "https://drive.google.com/file/d/17F-ci0v0m-JIlWk25lbjsyWdc1LmE4QF/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -17,7 +17,7 @@ document.querySelector('.chapel').addEventListener('click', function() {
 });
 
 document.querySelector('.foyer').addEventListener('click', function() {
-    displayVideo("Foyer", "https://drive.google.com/file/d/1NMxKb11jHASX_GQXXBFPiGWiy5_ZIDMp/preview");
+    displayVideo("Foyer", "https://drive.google.com/file/d/1--yH6kKq4NcYKJj3zjLgI-Idz0QlkmXa/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -25,7 +25,7 @@ document.querySelector('.foyer').addEventListener('click', function() {
 });
 
 document.querySelector('.ibblock').addEventListener('click', function() {
-    displayVideo("IB Block", "https://drive.google.com/file/d/1SNZOcHvYUHLHXDG9uoiFv58aibEsq5aa/preview");
+    displayVideo("IB Block", "https://drive.google.com/file/d/1LfDs6lnrCplllWo_epndGrWM-QEVkpPN/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -33,7 +33,7 @@ document.querySelector('.ibblock').addEventListener('click', function() {
 });
 
 document.querySelector('.ish').addEventListener('click', function() {
-    displayVideo("ISH", "https://drive.google.com/file/d/1feRwQuBrHZTeePhgyD3s2akEMytilMVn/preview");
+    displayVideo("ISH", "https://drive.google.com/file/d/1-1b0i8d_kZi9irbgc4gqu578BhDTb672/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -41,7 +41,7 @@ document.querySelector('.ish').addEventListener('click', function() {
 });
 
 document.querySelector('.library').addEventListener('click', function() {
-    displayVideo("Library", "https://drive.google.com/file/d/1g6Q_hTZfg7m3Enq0UhnaoedZOooZddY6/preview");
+    displayVideo("Library", "https://drive.google.com/file/d/1-186U-ejO6WyuH65iRKGwmxH-tDW2HPG/preview");
     document.getElementById("field").style.display = "none";
     display.scrollIntoView({
         behavior: 'smooth'
@@ -49,7 +49,7 @@ document.querySelector('.library').addEventListener('click', function() {
 });
 
 document.querySelector('.track').addEventListener('click', function() {
-    displayVideo("Track", "https://drive.google.com/file/d/1XhR2QY0epwnpEQHQg6AG0syUKYV4aaIu/preview");
+    displayVideo("Track", "https://drive.google.com/file/d/1--t_lO-JpKhowfiX-Z9GhtDC58AigBR8/preview");
     document.getElementById("field").style.display = "block";
     display.scrollIntoView({
         behavior: 'smooth'
