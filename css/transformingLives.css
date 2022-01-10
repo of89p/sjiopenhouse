@@ -417,7 +417,6 @@ body {
 }
 
 .faith_card_g {
-  padding: 100px;
   background-color: #00664f;
   color: #fff;
 }
@@ -427,11 +426,12 @@ body {
 }
 
 .faith_card_g p {
+  padding: 0px;
   text-align: justify;
 }
 
 .faith_card_w {
-  padding: 100px;
+  padding: 20px;
   background-color: #fff;
   color: #00664f;
 }
